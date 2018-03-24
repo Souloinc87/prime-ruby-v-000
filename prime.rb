@@ -4,7 +4,6 @@ def prime?(number)
     (2..number - 1).all? |n|
     number % n != 0
    end 
-  else
     return false
   end
 end
