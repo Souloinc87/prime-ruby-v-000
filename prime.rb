@@ -1,5 +1,5 @@
-def prime(number)
-  if number % 2 == 0 
+def prime?(number)
+  if number % 2 == 0
     return true
   elsif number % 2 != 0
     return true 
