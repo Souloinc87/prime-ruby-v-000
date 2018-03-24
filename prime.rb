@@ -5,5 +5,6 @@ def prime?(number)
     number % n == 0
   else
     return false
+    end
   end
 end
