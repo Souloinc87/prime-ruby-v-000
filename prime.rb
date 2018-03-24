@@ -1,8 +1,9 @@
 def prime?(number)
-  if n > 0
-    Array.new(n + 1) { |i| i }
+  if number >= 2
+    (2..number -1).all? |n|
+    number % n != 0
   else
-    Array.new(-n + 1) { |i| -i }
-  end
+    false
+  end 
 end
   
