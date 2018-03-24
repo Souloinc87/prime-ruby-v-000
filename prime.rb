@@ -1,7 +1,7 @@
 def prime?(number)
-if number % 2 == number && number % number == 1
+if number % 2 != 0 && number % 3 != 0 
   true
 else
-  false 
+  false
   end
 end
