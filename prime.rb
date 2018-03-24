@@ -3,6 +3,6 @@ def prime?(number)
   true
 elsif number == -(number)
   false 
-  
+
   end
 end
