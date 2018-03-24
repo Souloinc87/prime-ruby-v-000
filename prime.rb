@@ -1,11 +1,9 @@
-'require' pry
 
 def prime?(number)
   if number >= 2
-    (2..number -1).all? |n|
+    (2..number - 1).all? |n|
     number % n != 0
   else
-    false
-    binding.pry 
+    return false
   end
 end
